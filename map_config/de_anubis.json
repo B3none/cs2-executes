@@ -1,0 +1,816 @@
+{
+	"Scenarios": [
+		{
+			"Name": "A Main Execute [CT CONTROLLED]",
+			"Description": "Execute the {{site}} site!",
+			"Bombsite": 0,
+			"RoundTime": 90,
+			"MinPlayerCount": 2,
+			"SpawnIds": [
+				1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 70, 71,
+				
+				56, 57, 58, 59, 60, 61, 68, 69 
+			],
+			"GrenadeIds": [
+				8, 9, 10, 11, 14, 15, 16
+			]
+		},
+		{
+			"Name": "A Main Execute [T CONTROLLED]",
+			"Description": "Execute the {{site}} site!",
+			"Bombsite": 0,
+			"RoundTime": 90,
+			"MinPlayerCount": 2,
+			"SpawnIds": [
+				1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 70, 71,
+				
+				58, 59, 60, 61, 62, 63, 68, 69 
+			],
+			"GrenadeIds": [
+				8, 9, 10, 11, 14, 15, 16
+			]
+		},
+		{
+			"Name": "B Main Execute",
+			"Description": "Execute the {{site}} site all from Main!",
+			"Bombsite": 1,
+			"RoundTime": 90,
+			"MinPlayerCount": 2,
+			"SpawnIds": [
+				34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,
+				
+				22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33
+			],
+			"GrenadeIds": [
+				5, 7, 8, 9
+			]
+		},
+		{
+			"Name": "B Execute",
+			"Description": "Execute the {{site}} with potential E-Box Lurker!",
+			"Bombsite": 1,
+			"RoundTime": 90,
+			"MinPlayerCount": 2,
+			"SpawnIds": [
+				34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,
+				
+				22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 55, 64, 67
+			],
+			"GrenadeIds": [
+				5, 7, 8, 9
+			]
+		}
+    ],
+    "Spawns": [
+		{
+			"Id": 1,
+			"Name": "A Pillar",
+			"Position": "1631.895020 1833.110107 -12.188377",
+			"Angle": "4.269438 -91.824768 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 2,
+			"Name": "A Headshot Wall",
+			"Position": "835.968628 1672.670776 3.818069",
+			"Angle": "4.608224 -1.981207 -0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 3,
+			"Name": "Heaven",
+			"Position": "1050.345581 2339.178711 24.031250",
+			"Angle": "3.160609 -85.202660 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 4,
+			"Name": "A Site",
+			"Position": "1109.746948 1979.915649 -127.968750",
+			"Angle": "0.604210 -47.195621 -0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 5,
+			"Name": "Angle Wall",
+			"Position": "1220.884766 1432.031250 -83.168594",
+			"Angle": "-1.490183 59.372242 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 6,
+			"Name": "Camera Walk-up (Off-Angle)",
+			"Position": "781.162170 1300.315063 -23.968750",
+			"Angle": "4.608200 31.498539 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 7,
+			"Name": "Heaven Connector",
+			"Position": "700.887024 1949.997803 24.788223",
+			"Angle": "0.203812 -4.044514 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 8,
+			"Name": "A Pillar Deep (Off-Angle)",
+			"Position": "1511.967896 2157.394043 -127.968750",
+			"Angle": "-2.290989 -83.754829 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 9,
+			"Name": "Angle Wall (Aggro)",
+			"Position": "1344.598633 1664.428101 -87.968750",
+			"Angle": "-0.689404 -39.557007 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 10,
+			"Name": "Heaven Jump-up (Off-Angle)",
+			"Position": "1056.389771 2066.356934 -87.968750",
+			"Angle": "0.942984 -48.519630 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 11,
+			"Name": "A Site (Off-Angle)",
+			"Position": "964.032837 1818.502441 -127.968750",
+			"Angle": "-2.722224 -24.126112 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 12,
+			"Name": "Heaven 2",
+			"Position": "826.287476 2093.894043 24.031250",
+			"Angle": "1.959384 1.232199 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 13,
+			"Name": "Camera Entrance",
+			"Position": "422.125641 1337.970093 32.909538",
+			"Angle": "-1.397819 -126.371902 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 14,
+			"Name": "Mid Aggression (Off-Angle)",
+			"Position": "345.600281 1030.780640 38.050827",
+			"Angle": "-2.291019 -138.784607 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 15,
+			"Name": "Mid Double-Doors (Defensive)",
+			"Position": "335.968719 726.031250 32.313953",
+			"Angle": "-2.445020 176.585037 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 16,
+			"Name": "Mid Double-Doors (Aggressive)",
+			"Position": "365.963654 424.030701 41.810970",
+			"Angle": "-1.736619 178.186127 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 17,
+			"Name": "Mid Double-Doors 2 (Aggressive)",
+			"Position": "161.939240 594.568909 33.671631",
+			"Angle": "-3.461423 -141.002853 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 18,
+			"Name": "CT Mid (Aggressive)",
+			"Position": "73.477730 878.046509 60.943657",
+			"Angle": "-0.874211 -121.012779 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 19,
+			"Name": "CT Mid Boxes",
+			"Position": "94.031700 1123.518311 32.031250",
+			"Angle": "0.450186 -76.331688 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 20,
+			"Name": "CT Mid Boxes (Far-side)",
+			"Position": "391.968597 1477.014404 58.357574",
+			"Angle": "0.142227 -117.942261 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 21,
+			"Name": "Mid Temple Entrance",
+			"Position": "126.010773 1513.458618 32.031250",
+			"Angle": "-0.073373 -83.384537 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 22,
+			"Name": "Temple B",
+			"Position": "-669.601257 1162.016724 96.031250",
+			"Angle": "-0.227360 -157.406448 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 23,
+			"Name": "B Ninja",
+			"Position": "-578.839966 496.884796 103.335327",
+			"Angle": "1.559042 165.387695 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 24,
+			"Name": "B Plateau (Off-Angle)",
+			"Position": "-578.878418 947.257507 102.664284",
+			"Angle": "0.973853 -132.704010 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 25,
+			"Name": "B Site (E-Box Angle)",
+			"Position": "-975.265869 776.031738 60.537712",
+			"Angle": "7.380256 -76.247711 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 26,
+			"Name": "B Site (Exposed Main)",
+			"Position": "-1056.851196 868.703979 64.031250",
+			"Angle": "-0.596946 -133.781021 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 27,
+			"Name": "Pizza",
+			"Position": "-1599.965454 698.154053 102.031250",
+			"Angle": "4.823860 -74.306732 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 28,
+			"Name": "B Pillar (Exposed E-Box)",
+			"Position": "-1072.780273 307.779510 41.031250",
+			"Angle": "-1.274538 168.437088 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 29,
+			"Name": "B Entrance Wall (Defensive)",
+			"Position": "-1286.266846 250.311539 56.466610",
+			"Angle": "-0.566139 136.495056 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 30,
+			"Name": "B Entrance Wall 2 (Defensive)",
+			"Position": "-1173.474121 250.034866 44.555855",
+			"Angle": "-0.812539 149.124741 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 31,
+			"Name": "B CT Spawn (Close-up)",
+			"Position": "-1335.969971 980.864624 64.031250",
+			"Angle": "1.805462 -59.040474 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 32,
+			"Name": "B CT Spawn (Far)",
+			"Position": "-1077.492310 1533.421875 33.031250",
+			"Angle": "-0.566139 -103.915962 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 33,
+			"Name": "B CT Spawn 2 (Far)",
+			"Position": "-1277.966797 1680.622192 112.031250",
+			"Angle": "2.236755 -87.715096 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 34,
+			"Name": "B Main High",
+			"Position": "-1266.208984 -547.100830 160.903503",
+			"Angle": "5.809568 111.878380 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 35,
+			"Name": "B Main Util Support",
+			"Position": "-1267.312622 -313.073242 67.956078",
+			"Angle": "-3.122418 90.657310 -0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 36,
+			"Name": "B Main Support",
+			"Position": "-1267.968750 -170.453247 64.236610",
+			"Angle": "-1.151216 127.124153 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 37,
+			"Name": "B Main Support 2",
+			"Position": "-1417.970947 -167.968689 96.031250",
+			"Angle": "4.361989 111.231323 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 38,
+			"Name": "B Main Support 3",
+			"Position": "-1535.776978 -146.974365 96.031250",
+			"Angle": "2.206048 94.475342 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 39,
+			"Name": "B Main (Exposed)",
+			"Position": "-1746.776245 -96.031921 96.031250",
+			"Angle": "1.774844 64.599297 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 40,
+			"Name": "B Main Entry",
+			"Position": "-1530.298340 64.935799 63.833035",
+			"Angle": "-0.473543 101.836342 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 41,
+			"Name": "B Main Entry 2",
+			"Position": "-1520.294434 188.841171 64.031250",
+			"Angle": "0.820057 132.420654 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 42,
+			"Name": "B Main Entry 3",
+			"Position": "-1794.000122 445.955719 122.031250",
+			"Angle": "8.951263 -40.213207 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 43,
+			"Name": "B Main Entry 4 (Exposed)",
+			"Position": "-1880.515747 359.441101 127.590485",
+			"Angle": "7.904058 0.997237 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 44,
+			"Name": "B Main Entry 5 (Partial Expose)",
+			"Position": "-1543.616089 85.870979 63.486420",
+			"Angle": "0.142495 98.756264 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 45,
+			"Name": "T Mid Support",
+			"Position": "-578.025635 -569.996826 128.031250",
+			"Angle": "3.807693 51.447292 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 46,
+			"Name": "T Mid Entry",
+			"Position": "-265.388794 -89.050537 102.031250",
+			"Angle": "8.396661 39.281307 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 47,
+			"Name": "T Mid Entry 2",
+			"Position": "-360.724243 -155.121460 64.266541",
+			"Angle": "0.357861 33.121342 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 48,
+			"Name": "T Mid Entry 3",
+			"Position": "-336.630615 -74.823242 102.084450",
+			"Angle": "8.027081 9.035801 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 49,
+			"Name": "T Mid Entry 4",
+			"Position": "78.349205 -320.738892 64.266548",
+			"Angle": "0.265489 117.174477 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 50,
+			"Name": "T Mid Support 2",
+			"Position": "246.138763 -670.070190 63.282124",
+			"Angle": "-0.381313 116.958511 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 51,
+			"Name": "T Mid Support 3",
+			"Position": "327.281006 -447.866455 64.468407",
+			"Angle": "0.234688 145.325836 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 53,
+			"Name": "T Mid (Exposed)",
+			"Position": "-18.539429 -406.265625 64.263306",
+			"Angle": ";setang -0.442912 91.456993 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 54,
+			"Name": "T Mid 2 (Exposed)",
+			"Position": "-282.870483 -368.833130 64.264259",
+			"Angle": "-0.073312 74.085869 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 55,
+			"Name": "E-Box T-Side Entrance",
+			"Position": "-446.662903 305.968262 -55.968750",
+			"Angle": "-1.243713 -92.674339 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 56,
+			"Name": "T Stairs (Late)",
+			"Position": "743.031006 -45.292114 -59.314835",
+			"Angle": "1.374311 59.918114 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 57,
+			"Name": "T Stairs 2 (Late)",
+			"Position": "831.673523 -197.742432 -22.938889",
+			"Angle": "2.914318 88.377144 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 58,
+			"Name": "A Canal Support",
+			"Position": "784.544861 415.881714 -87.968750",
+			"Angle": "-0.566082 40.544937 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 59,
+			"Name": "A Canal Support 2",
+			"Position": " 1033.696167 402.861145 -124.780518",
+			"Angle": "-4.200482 61.704437 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 60,
+			"Name": "A Canal Entry",
+			"Position": "1067.968750 934.968689 -124.833618",
+			"Angle": "-3.030087 -17.389772 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 61,
+			"Name": "A Canal Entry 2",
+			"Position": "1231.968628 702.079895 -87.968750",
+			"Angle": "-0.227288 80.153694 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 62,
+			"Name": "A Main Entry",
+			"Position": "1429.031250 1162.968628 -80.919418",
+			"Angle": "0.542711 5.987432 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 63,
+			"Name": "A Main Entry 2",
+			"Position": "1577.559448 927.650085 -87.968750",
+			"Angle": "-2.937695 83.018242 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 64,
+			"Name": "E-Box Entry",
+			"Position": "-789.968750 52.031364 -29.958160",
+			"Angle": "-3.030093 91.610764 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 65,
+			"Name": "E-Box (Defensive)",
+			"Position": "-596.031311 419.968750 -6.7426680",
+			"Angle": "3.961506 -92.480858 0.00000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 66,
+			"Name": "E-Box 2 (Defensive)",
+			"Position": "-763.868530 311.235352 8.031250",
+			"Angle": "8.211927 -38.704285 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 67,
+			"Name": "E-Box Entry/Support",
+			"Position": "-138.639343 291.965424 -124.833618",
+			"Angle": "-8.666473 -156.647247 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 68,
+			"Name": "Rugs Jump-Up Support",
+			"Position": "1224.648315 489.027771 28.031250",
+			"Angle": "17.174482 87.504250 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 69,
+			"Name": "Rugs Jump-Up Support 2",
+			"Position": "1308.177002 492.324036 64.031250",
+			"Angle": "26.660875 110.573349 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 70,
+			"Name": "A Main Defensive (Off-Angle)",
+			"Position": "1557.459351 1136.832642 -81.968750",
+			"Angle": "-0.381548 -116.277786 0.000000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 71,
+			"Name": "A Main Defensive 2 (Off-Angle)",
+			"Position": "1787.948242 1226.923218 -42.968750",
+			"Angle": "5.254859 -138.207581 0.00000",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 72,
+			"Name": "A Canal (Exposed)",
+			"Position": "732.031250 520.031250 -87.968750",
+			"Angle": "-1.182344 29.714352 0.000000",
+			"Team": 2,
+			"Type": 0
+		}
+    ],
+    "Grenades": [
+		{
+			"Id": 1,
+			"Name": "Rug Boxes to Heaven",
+			"Type": 3,
+			"Position": "1,259.97 489.03 -35.97",
+			"Angle": "38.78 104.32 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},			
+		{
+			"Id": 2,
+			"Name": "Rug Boxes to Camera",
+			"Type": 2,
+			"Position": "925.47 1,328.03 -87.97",
+			"Angle": "13.55 -175.57 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},				
+		{
+			"Id": 3,
+			"Name": "Rug Boxes to A Site",
+			"Type": 3,
+			"Position": "968.65 1,521.31 -87.97",
+			"Angle": "18.70 60.28 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 4,
+			"Name": "Boat to A Site",
+			"Type": 0,
+			"Position": "1,149.97 610.03 -188.83",
+			"Angle": "-33.10 89.76 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 5,
+			"Name": "B Main to B Site (Left)",
+			"Type": 2,
+			"Position": "-1,600.94 319.81 0.03",
+			"Angle": "4.39 52.08 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 7,
+			"Name": "B Main to E-Box",
+			"Type": 2,
+			"Position": "-1,267.97 -314.82 5.71",
+			"Angle": "-26.26 89.89 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 8,
+			"Name": "B Main to B Site (Right)",
+			"Type": 2,
+			"Position": "-968.73 876.65 35.03",
+			"Angle": "5.59 -124.76 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 9,
+			"Name": "E-Box to B Plateau",
+			"Type": 3,
+			"Position": "-723.72 733.62 38.03",
+			"Angle": "28.02 -110.77 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 10,
+			"Name": "T-Mid to Mid Double-Doors",
+			"Type": 3,
+			"Position": "-430.21 -190.55 0.27",
+			"Angle": "22.66 83.18 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 11,
+			"Name": "T-Spawn to E-Box",
+			"Type": 2,
+			"Position": "493.42 56.79 -151.97",
+			"Angle": "2.24 -16.73 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 12,
+			"Name": "T-Spawn to CT-Mid",
+			"Type": 2,
+			"Position": "-142.17 -321.47 0.20",
+			"Angle": "2.21 91.97 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 13,
+			"Name": "CT-Mid to T-Mid",
+			"Type": 2,
+			"Position": "-2.75 845.64 0.27",
+			"Angle": "4.52 -90.83 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 3,
+			"Delay": 0
+		},
+		{
+			"Id": 14,
+			"Name": "CT-Mid to Mid Look-down",
+			"Type": 4,
+			"Position": "-44.11 897.78 0.27",
+			"Angle": "5.07 -95.45 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 3,
+			"Delay": 0
+		},
+		{
+			"Id": 15,
+			"Name": "A Site to A Main",
+			"Type": 2,
+			"Position": "1,564.09 1,700.83 -144.88",
+			"Angle": "10.80 -58.08 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 3,
+			"Delay": 0
+		},
+		{
+			"Id": 16,
+			"Name": "B Site to B Main",
+			"Type": 2,
+			"Position": "-1,163.44 885.25 0.03",
+			"Angle": "3.71 -120.20 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 3,
+			"Delay": 0
+		},
+		{
+			"Id": 17,
+			"Name": "Cameras to A Pillar",
+			"Type": 0,
+			"Position": "772.85 1,355.70 -87.97",
+			"Angle": "4.33 26.63 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 3,
+			"Delay": 0
+		},
+		{
+			"Id": 18,
+			"Name": "A Headshot to T-Stairs",
+			"Type": 1,
+			"Position": "836.02 1,410.64 -87.97",
+			"Angle": "8.03 -89.55 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 3,
+			"Delay": 0
+		},
+		{
+			"Id": 19,
+			"Name": "T-Stairs to A-Headshot",
+			"Type": 1,
+			"Position": "831.67 -197.74 -76.46",
+			"Angle": "3.31 89.15 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		}
+    ]
+}

@@ -1,0 +1,540 @@
+{
+	"Scenarios": [
+		{
+			"Name": "Upper (A) Execute",
+			"Description": "Execute the {{site}} site!",
+			"Bombsite": 0,
+			"RoundTime": 90,
+			"MinPlayerCount": 2,
+			"SpawnIds": [
+				28, 29, 30, 30, 31, 32,
+				
+				21, 22, 23, 24, 25, 26, 27
+			],
+			"GrenadeIds": [
+				8, 9, 10, 11, 14, 15, 16
+			]
+		},
+		{
+			"Name": "Outside to Lower Execute",
+			"Description": "Execute the {{site}} site!",
+			"Bombsite": 1,
+			"RoundTime": 90,
+			"MinPlayerCount": 2,
+			"SpawnIds": [
+				1, 2, 3, 4, 12,
+				
+				10, 11, 21
+			],
+			"GrenadeIds": [
+				1, 2, 3, 4, 5, 12
+			]
+		},
+		{
+			"Name": "Ramp Execute",
+			"Description": "Take control of ramp and plant lower",
+			"Bombsite": -1,
+			"DisableOtherBombsite": false,
+			"RoundTime": 90,
+			"MinPlayerCount": 2,
+			"SpawnIds": [
+				1, 2, 3, 4, 12,
+				
+				16, 17, 18, 19
+			],
+			"GrenadeIds": [
+				6, 7, 13
+			]
+		}
+	],
+	"Spawns": [
+		{
+			"Id": 1,
+			"Name": "Ramp Vending 1",
+			"Position": "-147.84155 -541.07196 -415.96875",
+			"Angle": "-0.1349643 44.440487 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 2,
+			"Name": "Ramp Trophy 1",
+			"Position": "5.0313263 -292.03125 -415.96875",
+			"Angle": "-0.81263995 0.119350374 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 3,
+			"Name": "Ramp Trophy 2",
+			"Position": "251.9701 -377.99335 -415.96875",
+			"Angle": "-4.3545327 129.63359 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 4,
+			"Name": "Ramp Trophy 3",
+			"Position": "4.031314 -635.96875 -415.96875",
+			"Angle": "0.14227754 68.680275 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 5,
+			"Name": "Ramp Trophy 4",
+			"Position": "217.96603 -518.5439 -415.96875",
+			"Angle": "0.20387802 98.032616 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 6,
+			"Name": "Ramp Vending 2",
+			"Position": "-183.5976 -423.80188 -415.96875",
+			"Angle": "-0.2581209 18.229992 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 7,
+			"Name": "CT Ramp Wall",
+			"Position": "304.0337 499.51273 -452.30414",
+			"Angle": "-4.6625156 -89.72418 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 8,
+			"Name": "Ramp (Secondary Ramp)",
+			"Position": "865.33484 433.50317 -437.63538",
+			"Angle": "-1.7365083 -142.48444 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 9,
+			"Name": "Ramp (J-Hall)",
+			"Position": "1214.9686 4.4059963 -415.96875",
+			"Angle": "0.019088507 178.73866 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 10,
+			"Name": "Ramp Boost Boxes (UnBoosted)",
+			"Position": "596.8509 -233.9646 -415.96875",
+			"Angle": "-0.1041075 133.98509 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 11,
+			"Name": "Ramp Boost Boxes (Boosted)",
+			"Position": "318.03125 -218.9687 -271.96875",
+			"Angle": "17.729044 88.988556 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 12,
+			"Name": "Garage Outside",
+			"Position": "1806.5898 -1654.9858 -415.96875",
+			"Angle": "0.111460865 -147.63809 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 13,
+			"Name": "Credit Card",
+			"Position": "1512.3654 -1477.1492 -415.96875",
+			"Angle": "0.7890572 -140.58469 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 14,
+			"Name": "Mini Spawn",
+			"Position": "1150.7668 -1483.5983 -415.96875",
+			"Angle": "0.17312089 -133.25423 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 15,
+			"Name": "Secret Entrance",
+			"Position": "1436.9044 -2195.8457 -415.96875",
+			"Angle": "-0.1348438 -153.4082 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 16,
+			"Name": "Secret Stairs",
+			"Position": "1583.9305 -2447.97 -559.96875",
+			"Angle": "-6.510459 172.49564 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 17,
+			"Name": "RedBox (Secret Side)",
+			"Position": "834.69666 -2232.1807 -415.96875",
+			"Angle": "0.5119487 130.57526 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 18,
+			"Name": "Redbox (G1ave)",
+			"Position": "659.20966 -2158.56 -415.96875",
+			"Angle": "1.1587489 101.376945 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 19,
+			"Name": "Africa (Close)",
+			"Position": "232.03174 -1844.1943 -415.96875",
+			"Angle": "1.5899498 -89.438194 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 20,
+			"Name": "Africa (Far)",
+			"Position": "295.03027 -1553.1626 -367.96875",
+			"Angle": "2.5447564 -87.92904 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 21,
+			"Name": "Heaven",
+			"Position": "1259.9688 -316.03125 -127.96875",
+			"Angle": "-0.65841544 -160.80164 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 22,
+			"Name": "Mustang",
+			"Position": "288.03137 -947.96875 -127.96875",
+			"Angle": "34.60748 -29.47107 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 23,
+			"Name": "Nitro",
+			"Position": "815.6694 -1018.62134 -415.96875",
+			"Angle": "-0.38123703 -144.90944 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 24,
+			"Name": "Asia Vent",
+			"Position": "882.0313 -1471.9724 -415.96875",
+			"Angle": "-0.22723937 97.526596 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 25,
+			"Name": "Tetris Boxes",
+			"Position": "496.03125 -1104.9688 -415.96875",
+			"Angle": "-1.1820374 -10.590357 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 26,
+			"Name": "Top Hut",
+			"Position": "352.032 -956.91296 -255.96875",
+			"Angle": "2.6373265 -43.915993 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 27,
+			"Name": "Squeaky Vent",
+			"Position": "391.966 -1471.9686 -415.96875",
+			"Angle": "-2.3214834 90.8032 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 28,
+			"Name": "Squeaky (Deep)",
+			"Position": "-239.74756 -1345.1371 -415.96875",
+			"Angle": "0.01931727 8.341968 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 29,
+			"Name": "Squeaky (Close)",
+			"Position": "115.557281 -1184.031250 -351.968750",
+			"Angle": "0.388913 -31.543930 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 29,
+			"Name": "Hut (Deep)",
+			"Position": "49.930439 -820.457581 -351.968750",
+			"Angle": "-0.134689 -49.500210 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 30,
+			"Name": "T-Roof Stairs",
+			"Position": "-113.031372 -729.481384 -107.968750",
+			"Angle": "-2.660295 6.401507 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 31,
+			"Name": "T-Roof Ventilation",
+			"Position": "-16.666504 -817.602478 42.031311",
+			"Angle": "-2.167240 -36.287514 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 32,
+			"Name": "Lobby Platform",
+			"Position": "146.365509 -688.031311 -223.968750",
+			"Angle": "19.854935 -74.941124 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 33,
+			"Name": "Outside Light-Beam",
+			"Position": "-732.881531 -1322.138184 -349.632324",
+			"Angle": "0.112131 -40.876171 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 34,
+			"Name": "T-Spawn Truck",
+			"Position": "-1268.029297 -1161.265991 -351.968750",
+			"Angle": "-1.058247 0.448286 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 35,
+			"Name": "Silo",
+			"Position": "167.968689 -1440.944458 -27.028748",
+			"Angle": "-0.318904 -50.679615 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 36,
+			"Name": "Outside Entry 1",
+			"Position": "-155.268127 -1797.062622 -351.968750",
+			"Angle": "-2.413254 -39.899788 -0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 37,
+			"Name": "Outside Entry 2",
+			"Position": "-301.848999 -1739.108765 -351.968750",
+			"Angle": "-1.242853 -43.780571 0.000000",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 38,
+			"Name": "Outside Entry Support",
+			"Position": "-367.414795 -1829.442261 -351.968750",
+			"Angle": "-0.750054 -28.134296 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 39,
+			"Name": "Outside Entry Support 2",
+			"Position": "-499.998535 -1548.729248 -351.968750",
+			"Angle": "-1.489236 -44.396538 0",
+			"Team": 2,
+			"Type": 0
+		},
+		{
+			"Id": 40,
+			"Name": "Upper Rafter",
+			"Position": "979.347595 -479.865112 -63.968750",
+			"Angle": "16.139240 -121.821709 0",
+			"Team": 3,
+			"Type": 0
+		},
+		{
+			"Id": 41,
+			"Name": "Upper Floor (Hut)",
+			"Position": "320.034119 -472.409302 -351.968750",
+			"Angle": "-2.279172 -81.144325 0",
+			"Team": 2,
+			"Type": 0
+		}		
+	],
+	"Grenades": [
+		{
+			"Id": 1,
+			"Name": "T-Spawn to RedBox Wall (Shallow)",
+			"Type": 2,
+			"Position": "-1,268.03 -1,162.70 -415.97",
+			"Angle": "-0.20 -1.64 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 2,
+			"Name": "T-Spawn to RedBox Wall (Deep)",
+			"Type": 2,
+			"Position": "-732.88 -1,322.14 -407.97",
+			"Angle": "-11.27 -23.37 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 3,
+			"Name": "T-Spawn to Mini Garage",
+			"Type": 2,
+			"Position": "693.66 -1,989.26 -415.97",
+			"Angle": "25.75 22.85 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 4,
+			"Name": "T-Spawn to Garage",
+			"Type": 2,
+			"Position": "992.92 -2,331.13 -415.97",
+			"Angle": "6.75 70.02 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 5,
+			"Name": "T Mid Outside to Garage Main",
+			"Type": 2,
+			"Position": "-186.41 -1,992.42 -415.97",
+			"Angle": "1.20 3.24 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 6,
+			"Name": "Trophy to Ramp AWP Angle",
+			"Type": 2,
+			"Position": "210.33 -344.91 -415.97",
+			"Angle": "10.07 144.80 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 7,
+			"Name": "Trophy to Ramp boxes",
+			"Type": 0,
+			"Position": "94.93 -292.03 -415.97",
+			"Angle": "-7.82 60.23 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 8,
+			"Name": "T-Roof to Upper Silo",
+			"Type": 3,
+			"Position": "0.89 -769.65 -95.97",
+			"Angle": "3.88 10.88 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 9,
+			"Name": "T-Roof to Top Hut",
+			"Type": 2,
+			"Position": "696.97 -1,229.25 -415.97",
+			"Angle": "16.99 -149.86 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 10,
+			"Name": "Outside Silo to Heaven",
+			"Type": 2,
+			"Position": "612.93 -859.53 -415.97",
+			"Angle": "13.94 38.75 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+		{
+			"Id": 11,
+			"Name": "T-Roof to Mini Garage(Inner)",
+			"Type": 2,
+			"Position": "-105.03 -280.03 -171.97",
+			"Angle": "-11.40 -59.69 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 3,
+			"Delay": 0
+		},
+		{
+			"Id": 12,
+			"Name": "CT to Gla1ve",
+			"Type": 3,
+			"Position": "908.41 -1,933.98 -415.97",
+			"Angle": "4.31 -155.96 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 3,
+			"Delay": 0
+		},
+		{
+			"Id": 13,
+			"Name": "Trophy to Ramp",
+			"Type": 2,
+			"Position": "192.01 -335.84 -415.97",
+			"Angle": "-2.03 97.87 0.00",
+			"Velocity": "-431.16 -115.31 506.39",
+			"Team": 2,
+			"Delay": 0
+		},
+        {
+            "Id": 14,
+            "Name": "T-Roof to Upper Site",
+            "Type": 2,
+            "Position": "-113.03 -727.02 -171.97",
+            "Angle": "-2.22 5.55 0.00",
+            "Velocity": "-431.16 -115.31 506.39",
+            "Team": 0,
+            "Delay": 1
+        },
+        {
+            "Id": 15,
+            "Name": "T-Roof to Upper Site - Flash #2",
+            "Type": 2,
+            "Position": "-113.03 -727.02 -171.97",
+            "Angle": "-2.22 5.55 0.00",
+            "Velocity": "-431.16 -115.31 506.39",
+            "Team": 0,
+            "Delay": 2.5
+        }
+	]
+}
